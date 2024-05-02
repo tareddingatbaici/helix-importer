@@ -241,6 +241,7 @@ async function html2md(url, document, transformCfg, config, params = {}) {
  */
 async function html2docx(url, document, transformCfg, config, params = {}) {
   let doc = document;
+  console.log("trevor edit test")
   if (typeof doc === 'string') {
     doc = parseStringDocument(document, config);
   }
